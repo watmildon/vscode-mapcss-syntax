@@ -19,6 +19,10 @@
 		},
 		{
 			"include": "#comment_line"
+		},
+		{
+			"match": "/.+/",
+			"name": "string.regexp.selector.mapcss"
 		}
 	],
 	"repository": {
@@ -27,7 +31,7 @@
 			"name": "entity.name.tag.wildcard.mapcss"
 		},
 		"tag_types": {
-			"match": "\\b(node|way|relation|area|line|canvas)\\b",
+			"match": "\\b(throwError|throwWarning|throwOther|assertMatch|assertNoMatch|fixAdd|fixRemove|fixChangeKey|fixDeleteObject|suggestAlternative|group)\\b",
 			"name": "entity.name.tag.types.mapcss"
 		},
 		"pseudo-classes": {
